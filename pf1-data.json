@@ -1,0 +1,179 @@
+{
+  "section": "PF1",
+  "title": "Properties of Sine and Cosine Graphs",
+  "learningObjective": "Determine the basic properties of the graphs of sine and cosine, including amplitude, period, and phase shift.",
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "conceptual",
+      "question": "What is the amplitude of a sine or cosine function, and what does it tell you about the graph?",
+      "answer": "Amplitude is the vertical distance from the center of the wave up to its highest point (or down to its lowest point) — essentially, how tall the wave is. A bigger amplitude means a taller, more dramatic wave; a smaller amplitude means a flatter one. For f(x) = A sin x, the amplitude is |A|.<div class=\"graph-wrap\"><svg viewBox=\"0 0 340 260\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"320\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><polyline points=\"30.0,150.0 41.7,138.4 53.3,127.5 65.0,118.2 76.7,111.0 88.3,106.5 100.0,105.0 111.7,106.5 123.3,111.0 135.0,118.2 146.7,127.5 158.3,138.4 170.0,150.0 181.7,161.6 193.3,172.5 205.0,181.8 216.7,189.0 228.3,193.5 240.0,195.0 251.7,193.5 263.3,189.0 275.0,181.8 286.7,172.5 298.3,161.6 310.0,150.0\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><polyline points=\"30.0,150.0 41.7,129.0 53.3,109.5 65.0,92.7 76.7,79.9 88.3,71.8 100.0,69.0 111.7,71.8 123.3,79.9 135.0,92.7 146.7,109.5 158.3,129.0 170.0,150.0 181.7,171.0 193.3,190.5 205.0,207.3 216.7,220.1 228.3,228.2 240.0,231.0 251.7,228.2 263.3,220.1 275.0,207.3 286.7,190.5 298.3,171.0 310.0,150.0\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"3\"/><text x=\"105\" y=\"98\" font-size=\"11\" fill=\"#0a3f52\" font-weight=\"600\">sin x</text><text x=\"105\" y=\"62\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">3sin x</text></svg></div><p class=\"graph-caption\">3sin x reaches three times as high and low as sin x — same shape, taller wave.</p>"
+    },
+    {
+      "id": "faq-2",
+      "category": "conceptual",
+      "question": "What is the period of a sine or cosine function?",
+      "answer": "The period is the length along the x-axis it takes for the wave to complete one full cycle before it starts repeating itself. The standard sine and cosine curves both have a period of 2π. For f(x) = sin(Bx), the period becomes 2π/|B| instead.<div class=\"graph-wrap\"><svg viewBox=\"0 0 340 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"320\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><polyline points=\"30.0,150.0 41.7,138.4 53.3,127.5 65.0,118.2 76.7,111.0 88.3,106.5 100.0,105.0 111.7,106.5 123.3,111.0 135.0,118.2 146.7,127.5 158.3,138.4 170.0,150.0 181.7,161.6 193.3,172.5 205.0,181.8 216.7,189.0 228.3,193.5 240.0,195.0 251.7,193.5 263.3,189.0 275.0,181.8 286.7,172.5 298.3,161.6 310.0,150.0\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><line x1=\"30\" y1=\"210\" x2=\"310\" y2=\"210\" stroke=\"#D4622A\" stroke-width=\"2\" marker-start=\"url(#capL)\" marker-end=\"url(#capR)\"/><text x=\"150\" y=\"228\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">period = 2&pi;</text><defs><marker id=\"capL\" markerWidth=\"6\" markerHeight=\"12\" refX=\"3\" refY=\"6\" orient=\"auto\"><path d=\"M3,0 L3,12\" stroke=\"#D4622A\" stroke-width=\"2\"/></marker><marker id=\"capR\" markerWidth=\"6\" markerHeight=\"12\" refX=\"3\" refY=\"6\" orient=\"auto\"><path d=\"M3,0 L3,12\" stroke=\"#D4622A\" stroke-width=\"2\"/></marker></defs></svg></div><p class=\"graph-caption\">One full period of sin x spans 2π before the wave starts repeating.</p>"
+    },
+    {
+      "id": "faq-3",
+      "category": "conceptual",
+      "question": "What is phase shift, and how is it different from the horizontal shifts we learned in FN4?",
+      "answer": "Phase shift is exactly the same idea as FN4's horizontal shift — it's just the name trig uses for it. For f(x) = sin(x−C), the phase shift is C units to the right; for f(x) = sin(x+C), it's C units to the left. Same \"backwards\" behavior you learned in FN4 (faq-2 from that section) applies here without any changes — it's the identical rule, just with new vocabulary attached.<div class=\"graph-wrap\"><svg viewBox=\"0 0 340 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"320\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><polyline points=\"7.7,171.6 20.3,159.7 32.9,147.1 45.5,134.7 58.1,123.5 70.7,114.4 83.3,108.1 95.9,105.2 108.5,105.8 121.1,109.9 133.7,117.2 146.3,127.1 158.9,138.9 171.5,151.5 184.0,164.0 196.6,175.3 209.2,184.7 221.8,191.3 234.4,194.6 247.0,194.4 259.6,190.7 272.2,183.7 284.8,174.1 297.4,162.5 310.0,150.0\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><polyline points=\"7.7,189.5 20.3,193.9 32.9,194.9 45.5,192.3 58.1,186.3 70.7,177.5 83.3,166.5 95.9,154.2 108.5,141.5 121.1,129.5 133.7,119.1 146.3,111.2 158.9,106.4 171.5,105.0 184.0,107.2 196.6,112.8 209.2,121.3 221.8,132.2 234.4,144.4 247.0,157.1 259.6,169.2 272.2,179.8 284.8,188.0 297.4,193.2 310.0,195.0\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"3\"/><text x=\"20\" y=\"100\" font-size=\"11\" fill=\"#0a3f52\" font-weight=\"600\">sin x</text><text x=\"175\" y=\"95\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">sin(x&minus;&pi;/2)</text></svg></div><p class=\"graph-caption\">sin(x−π/2) is the same wave, shifted right by π/2 — exactly FN4's phase-shift rule.</p>"
+    },
+    {
+      "id": "faq-4",
+      "category": "conceptual",
+      "question": "What is the domain and range of the standard sine and cosine functions?",
+      "answer": "Both sine and cosine have a domain of all real numbers — you can plug in any x-value at all, since the unit circle just keeps looping around forever in either direction. The range of the standard sine and cosine functions is [−1, 1], since the unit circle coordinates that define them never leave that interval.<div class=\"graph-wrap\"><svg viewBox=\"0 0 340 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"320\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><polyline points=\"30.0,150.0 41.7,138.4 53.3,127.5 65.0,118.2 76.7,111.0 88.3,106.5 100.0,105.0 111.7,106.5 123.3,111.0 135.0,118.2 146.7,127.5 158.3,138.4 170.0,150.0 181.7,161.6 193.3,172.5 205.0,181.8 216.7,189.0 228.3,193.5 240.0,195.0 251.7,193.5 263.3,189.0 275.0,181.8 286.7,172.5 298.3,161.6 310.0,150.0\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><line x1=\"20\" y1=\"105\" x2=\"320\" y2=\"105\" stroke=\"#D4622A\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"20\" y1=\"195\" x2=\"320\" y2=\"195\" stroke=\"#D4622A\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><text x=\"260\" y=\"100\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">y = 1</text><text x=\"260\" y=\"210\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">y = &minus;1</text></svg></div><p class=\"graph-caption\">The wave never rises above 1 or falls below −1 — that's the range, [−1, 1].</p>"
+    },
+    {
+      "id": "faq-5",
+      "category": "conceptual",
+      "question": "How is cosine related to sine, and why do the same rules apply to both?",
+      "answer": "Cosine is literally just sine, shifted left by π/2: cos(x) = sin(x + π/2). They're the exact same wave shape, just offset from each other horizontally. Because of that relationship, every technique you learn for finding amplitude, period, and phase shift on a sine function works identically on a cosine function — there's nothing new to learn, just a shape you already recognize with a different starting point.<div class=\"graph-wrap\"><svg viewBox=\"0 0 340 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"320\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><polyline points=\"30.0,150.0 41.7,138.4 53.3,127.5 65.0,118.2 76.7,111.0 88.3,106.5 100.0,105.0 111.7,106.5 123.3,111.0 135.0,118.2 146.7,127.5 158.3,138.4 170.0,150.0 181.7,161.6 193.3,172.5 205.0,181.8 216.7,189.0 228.3,193.5 240.0,195.0 251.7,193.5 263.3,189.0 275.0,181.8 286.7,172.5 298.3,161.6 310.0,150.0\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><polyline points=\"30.0,105.0 41.7,106.5 53.3,111.0 65.0,118.2 76.7,127.5 88.3,138.4 100.0,150.0 111.7,161.6 123.3,172.5 135.0,181.8 146.7,189.0 158.3,193.5 170.0,195.0 181.7,193.5 193.3,189.0 205.0,181.8 216.7,172.5 228.3,161.6 240.0,150.0 251.7,138.4 263.3,127.5 275.0,118.2 286.7,111.0 298.3,106.5 310.0,105.0\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"3\"/><text x=\"20\" y=\"100\" font-size=\"11\" fill=\"#0a3f52\" font-weight=\"600\">sin x</text><text x=\"20\" y=\"125\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">cos x</text></svg></div><p class=\"graph-caption\">Same wave, same shape — cosine is just sine shifted left by π/2.</p>"
+    },
+    {
+      "id": "faq-6",
+      "category": "sticking-points",
+      "question": "How do I find the amplitude from an equation like f(x) = 4 sin x?",
+      "answer": "Take the absolute value of the coefficient in front of sin or cos.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( f(x) = 4\\sin x \\) &rarr; amplitude \\( = |4| = 4 \\)</p><p class=\"math-line\">\\( f(x) = -2\\cos x \\) &rarr; amplitude \\( = |-2| = 2 \\)</p></div>"
+    },
+    {
+      "id": "faq-7",
+      "category": "sticking-points",
+      "question": "How do I find the period from an equation like f(x) = sin(3x)?",
+      "answer": "Divide 2π by the absolute value of the coefficient multiplying x inside the function.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( f(x) = \\sin(3x) \\) &rarr; period \\( = \\dfrac{2\\pi}{|3|} = \\dfrac{2\\pi}{3} \\)</p><p class=\"math-line\">\\( f(x) = \\cos\\left(\\dfrac{1}{2}x\\right) \\) &rarr; period \\( = \\dfrac{2\\pi}{\\left|\\frac{1}{2}\\right|} = 4\\pi \\)</p></div>"
+    },
+    {
+      "id": "faq-8",
+      "category": "sticking-points",
+      "question": "How do I find the phase shift from an equation like f(x) = sin(x − π/4)?",
+      "answer": "Set the expression inside the parentheses equal to zero and solve for x — that tells you where the \"start\" of the wave has moved to.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( f(x) = \\sin\\left(x - \\dfrac{\\pi}{4}\\right) \\)</p><p class=\"math-line\">Phase shift: \\( \\dfrac{\\pi}{4} \\) units to the right</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">If B ≠ 1, factor it out first: for \\( \\sin(2x-\\pi) = \\sin(2(x-\\frac{\\pi}{2})) \\), the phase shift is \\( \\dfrac{\\pi}{2} \\), not \\( \\pi \\).</p></div>"
+    },
+    {
+      "id": "faq-9",
+      "category": "sticking-points",
+      "question": "How does amplitude affect the range of a sine or cosine function?",
+      "answer": "The range stretches (or compresses) by exactly the amplitude: for f(x) = A sin x, the range becomes [−|A|, |A|] instead of the standard [−1, 1].<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">\\( f(x) = 5\\sin x \\) has amplitude \\( 5 \\), so its range is \\( [-5, 5] \\).</p></div>"
+    },
+    {
+      "id": "faq-10",
+      "category": "sticking-points",
+      "question": "How do I graph one full period of a transformed sine or cosine function?",
+      "answer": "Find the amplitude, period, and phase shift first. Start your graph at the phase-shifted starting point, then mark off the period length along the x-axis divided into quarters — those quarter-marks are exactly where the standard sine or cosine shape hits its zeros, maximum, and minimum. Sketch the usual wave shape through those five key points, scaled vertically to match the amplitude."
+    },
+    {
+      "id": "faq-11",
+      "category": "sticking-points",
+      "question": "How do I write the equation of a sine or cosine function if I'm given its amplitude, period, and phase shift?",
+      "answer": "Plug each piece of information into the correct spot in the general form.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Amplitude 3, period π, phase shift π/6 to the right, using sine.</p><p class=\"math-line\">Amplitude: \\( A = 3 \\)</p><p class=\"math-line\">Period \\( \\pi = \\dfrac{2\\pi}{B} \\) &rarr; \\( B = 2 \\)</p><p class=\"math-line\">Phase shift: \\( C = \\dfrac{\\pi}{6} \\)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">\\( f(x) = 3\\sin\\left(2\\left(x-\\dfrac{\\pi}{6}\\right)\\right) \\)</p></div>"
+    },
+    {
+      "id": "faq-12",
+      "category": "sticking-points",
+      "question": "Why does a larger B value make the period smaller instead of larger?",
+      "answer": "This is the exact same \"backwards\" horizontal behavior from FN4 — B is a horizontal compression/stretch factor acting on the input, not the output. A larger B compresses the wave horizontally, squeezing a full cycle into a shorter distance, which means a SMALLER period. It feels backwards for the same reason FN4's horizontal stretches did: you're changing what happens to x before the function acts, not directly changing the output."
+    },
+    {
+      "id": "faq-13",
+      "category": "connections",
+      "question": "How does everything from TR1–TR5 connect to graphing sine and cosine here in PF1?",
+      "answer": "PF1 is where the entire trig unit comes together visually. The radian measure from TR1 is literally the x-axis of these graphs. The exact values you calculated using reference angles in TR5 are exactly the y-values that make up the wave's shape — the graph is just the unit circle's y-coordinate (or x-coordinate, for cosine) plotted as you rotate all the way around."
+    },
+    {
+      "id": "faq-14",
+      "category": "connections",
+      "question": "Why do amplitude, period, and phase shift matter beyond just sine and cosine graphs?",
+      "answer": "Anything that repeats in a regular cycle — sound waves, tides, seasonal temperature patterns, AC electrical current, heartbeats — gets modeled using exactly this amplitude/period/phase-shift framework. Once you can read these three properties off an equation or a graph, you can describe and predict the behavior of any periodic real-world phenomenon, which is precisely why sine and cosine are called the fundamental building blocks of periodic motion."
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid-1",
+      "title": "Animation: Graphing the Sine Function Using the Unit Circle",
+      "url": "https://www.youtube.com/watch?v=QNQAkUUHNxo",
+      "description": "An animation showing exactly how the sine wave is traced out as a point moves around the unit circle.",
+      "category": "unit-circle-graphing",
+      "relatedFaqs": [
+        "faq-4",
+        "faq-13"
+      ]
+    },
+    {
+      "id": "vid-2",
+      "title": "Animation: Graphing the Cosine Function Using the Unit Circle",
+      "url": "https://youtu.be/tcjZOGaeoeo",
+      "description": "The same animation approach applied to cosine, showing how it traces out from the unit circle's x-coordinate.",
+      "category": "unit-circle-graphing",
+      "relatedFaqs": [
+        "faq-5",
+        "faq-13"
+      ]
+    },
+    {
+      "id": "vid-3",
+      "title": "Amplitude and Period of Sine and Cosine",
+      "url": "https://www.youtube.com/watch?v=qJ-oUV7xL3w",
+      "description": "How to determine the amplitude and period of sine and cosine functions, and how the graph changes as each one changes.",
+      "category": "amplitude-period-phase",
+      "relatedFaqs": [
+        "faq-1",
+        "faq-2",
+        "faq-6",
+        "faq-7"
+      ]
+    },
+    {
+      "id": "vid-4",
+      "title": "Exploring Transformations of Sine and Cosine: y = A sin(Bx-C)+D with Desmos",
+      "url": "https://www.youtube.com/watch?v=POVfta32Ghc",
+      "description": "An interactive exploration showing how A, B, C, and D each affect the graph of a sine or cosine function.",
+      "category": "amplitude-period-phase",
+      "relatedFaqs": [
+        "faq-1",
+        "faq-2",
+        "faq-3",
+        "faq-8",
+        "faq-11"
+      ]
+    }
+  ],
+  "apps": [],
+  "prompts": {
+    "guided": [
+      {
+        "id": "prompt-1",
+        "title": "Practice Reading Amplitude and Period",
+        "prompt": "I'm learning to find amplitude and period from a sine or cosine equation. Give me an equation like f(x) = A sin(Bx), and ask me to identify the amplitude and period. Then give me a few more practice equations of increasing difficulty, including at least one with a fraction for B, and check my work."
+      },
+      {
+        "id": "prompt-2",
+        "title": "Understand Phase Shift Using FN4",
+        "prompt": "I'm learning about phase shift in sine and cosine functions, and I've heard it's the same idea as horizontal shift from FN4. Can you help me see that connection directly — give me a sine equation with a phase shift and walk me through why the shift direction works the way it does, using the same reasoning from FN4."
+      },
+      {
+        "id": "prompt-3",
+        "title": "Practice Graphing One Full Period",
+        "prompt": "I'm learning to graph one full period of a transformed sine or cosine function. Give me an equation with amplitude, period, and phase shift all specified, and walk me through finding the five key points (zeros, max, min) needed to sketch it. Then give me a new equation and let me try it myself, checking my work."
+      },
+      {
+        "id": "prompt-4",
+        "title": "Practice Writing Equations from Given Properties",
+        "prompt": "I'm learning to write a sine or cosine equation given its amplitude, period, and phase shift. Give me a set of these three properties and ask me to build the equation step by step. Then reverse it — give me an equation and ask me to state its amplitude, period, and phase shift."
+      },
+      {
+        "id": "prompt-5",
+        "title": "Connect the Unit Circle to the Wave Graph",
+        "prompt": "I'm trying to understand why the sine graph has the wavy shape it does. Can you walk me through how the y-coordinate of a point moving around the unit circle, from TR5, becomes the sine graph when you plot it against the angle? I want to see the connection, not just memorize the shape."
+      }
+    ],
+    "open": [
+      {
+        "id": "open-1",
+        "title": "Create Your Own",
+        "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section PF1 (Properties of Sine and Cosine Graphs). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
+      }
+    ]
+  }
+}
