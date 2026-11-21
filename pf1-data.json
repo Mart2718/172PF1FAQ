@@ -137,6 +137,28 @@
         "faq-8",
         "faq-11"
       ]
+    },
+    {
+      "id": "vid-5",
+      "title": "Graph a Sine Transformation in the Form: y=asin(bx+c)+d",
+      "url": "https://youtu.be/QXTB_Wdt-gE",
+      "description": "Graphing a sine function written the way CheckIt writes it, a sin(bx + c): find the amplitude, period and phase shift, then plot the key points. The + d (vertical shift) part goes beyond the PF1 CheckIt exercise.",
+      "category": "amplitude-period-phase",
+      "relatedFaqs": [
+        "faq-8",
+        "faq-10"
+      ]
+    },
+    {
+      "id": "vid-6",
+      "title": "Graph a Cosine Transformation in the Form: y=acos(bx+c)+d",
+      "url": "https://youtu.be/Z4FfM04cIMU",
+      "description": "The same process for a cosine function in CheckIt's form, a cos(bx + c), from the phase shift to the key points. The + d (vertical shift) part goes beyond the PF1 CheckIt exercise.",
+      "category": "amplitude-period-phase",
+      "relatedFaqs": [
+        "faq-8",
+        "faq-10"
+      ]
     }
   ],
   "apps": [
