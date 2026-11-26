@@ -159,6 +159,17 @@
         "faq-8",
         "faq-10"
       ]
+    },
+    {
+      "id": "vid-7",
+      "title": "Describe and Graph a Transformation of the Sine Function (Period Pi)",
+      "url": "https://youtu.be/UaJXbGOWf6U",
+      "description": "Graphs a sine function with a changed amplitude and period, showing how |a| sets the range and how a bigger b squeezes the waves into a shorter period.",
+      "category": "amplitude-period-phase",
+      "relatedFaqs": [
+        "faq-9",
+        "faq-12"
+      ]
     }
   ],
   "apps": [
